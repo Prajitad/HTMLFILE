@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        text-align: center;
+        font-size: 0;
+      }
+
+      .heading {
+        font-size: 30px; /* Added */
+        margin-top: 20px; /* Added */
+      }
+
+      .hobby {
+        display: inline-block;
+        margin: 0;
+        border: 2px solid black;
+        font-size: 16px;
+        vertical-align: top;
+        box-sizing: border-box;
+        position: relative;
+      }
+
+      .hobby img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        padding: 0;
+      }
+
+      .hobby .title {
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%); /* Added */
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">list of my favourite hobbies</h1>
+      <div class="hobby">
+        <p class="title">Dancing</p>
+        <img src="1.png" alt="dancing" />
+      </div>
+      <div class="hobby">
+        <p class="title">Listening music</p>
+        <img src="2.png" alt="music" />
+      </div>
+      <div class="hobby">
+        <p class="title">Playing Guitar</p>
+        <img src="3.png" alt="guitar" />
+      </div>
+      <div class="hobby">
+        <p class="title">Travelling</p>
+        <img src="4.png" alt="Travelling" />
+      </div>
+      <div class="hobby">
+        <p class="title">Watching series</p>
+        <img src="5.png" alt="watching series" />
+      </div>
+    </div>
+  </body>
+</html>
